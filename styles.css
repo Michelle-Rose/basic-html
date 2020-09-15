@@ -25,11 +25,13 @@ header {
     float: left;
     padding: 20px;
     width: 70%;
+    height: 100%;
     background-color: #f7fff7;
 }
 .sidebar{
     float: right;
     padding: 20px;
     width: 30%;
+    height: 100%;
     background-color: #4ecdc4;
 }
