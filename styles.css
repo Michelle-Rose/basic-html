@@ -35,3 +35,26 @@ header {
     height: 100%;
     background-color: #4ecdc4;
 }
+.searchbar{
+    float: left;
+    width: 100%;
+}
+.searchbar input[type=text]{
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18pt;
+    border: none;
+    width: 75%;
+}
+.searchbar button{
+    float: right;
+    padding: 7px 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 18pt;
+    border: none;
+    cursor: pointer;
+}
+.searchbar button:hover{
+    background: #ffe66d;
+}
