@@ -1,3 +1,22 @@
+/* "Midnight Green Eagle Green":"1a535c",
+  "Medium Turquoise":"4ecdc4",
+  "Mint Cream":"f7fff7",
+  "Bittersweet":"ff6b6b",
+  "Naples Yellow":"ffe66d" */
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #1a535c;
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+    color: #f7fff7;
   }
