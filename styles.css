@@ -4,7 +4,7 @@
   "Bittersweet":"ff6b6b",
   "Naples Yellow":"ffe66d" */
 
-* {
+  * {
     box-sizing: border-box;
 }
 
@@ -12,7 +12,90 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col1 {
+    width: 8.33%;
+    float: left;
+}
+
+.col2 {
+    width: 16.66%;
+    float: left;
+
+}
+
+.col3 {
+    width: 25%;
+    float: left;
+
+}
+
+.col4 {
+    width: 33.33%;
+    float: left;
+
+}
+
+.col5 {
+    width: 41.66%;
+    float: left;
+
+}
+
+.col6 {
+    width: 50%;
+    float: left;
+
+}
+
+.col7 {
+    width: 58.33%;
+    float: left;
+
+}
+
+.col8 {
+    width: 66.66%;
+    float: left;
+
+}
+
+.col9 {
+    width: 75%;
+    float: left;
+
+}
+
+.col10 {
+    width: 83.33%;
+    float: left;
+
+}
+
+.col11 {
+    width: 91.66%;
+    float: left;
+
+}
+
+.col12 {
+    width: 100%;
+    float: left;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Style for header */
 header {
     background-color: #1a535c;
     padding: 20px;
@@ -21,17 +104,183 @@ header {
     color: #f7fff7;
 }
 
+/* Style for content */
 .content {
     float: left;
     padding: 20px;
     width: 70%;
-    height: 100%;
+    height: 250%;
     background-color: #f7fff7;
 }
-.sidebar{
+
+.section {
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title-left {
+    font-size: 22pt;
+    position: relative;
+}
+
+.title-left:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #ffe66d;
+    width: 100px;
+    bottom: -12px;
+}
+
+/* Style for About */
+.profile {
+    text-align: center;
+}
+
+.profile span {
+    font-size: 14pt;
+}
+
+.socials {
+    padding: 10px;
+}
+
+.socials a {
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #ffe66d;
+    color: #1a535c;
+    transition: all 500ms ease;
+}
+
+.socials a:hover {
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #ffe66d;
+    color: #1a535c;
+    transition: all 500ms ease;
+}
+
+.about-content {
+    justify-content: right;
+}
+
+/* Style for work */
+
+.work-box:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.work-img {
+    display: block;
+    overflow: hidden;
+    height: 168px;
+    width: 375px;
+}
+
+.work-img img {
+    transition: all 1s;
+}
+
+.work-content {
+    padding: 2rem 3% 1rem 4%;
+}
+
+.work-content .w-more {
+    color: #1a535c;
+    font-size: 14pt;
+}
+
+.work-content .w-more .w-ctegory {
+    color: #ffe66d;
+}
+
+.work-content .w-like {
+    font-size: 2.5rem;
+    color: #ffe66d;
+    float: right;
+}
+
+.work-content .w-like a {
+    color: #ffe66d;
+}
+
+
+/* Style for sidebar */
+.sidebar {
     float: right;
     padding: 20px;
     width: 30%;
-    height: 100%;
+    height: 250%;
     background-color: #4ecdc4;
+}
+
+/* Style for searchbar */
+.searchbar {
+    float: left;
+    width: 100%;
+}
+
+.searchbar input[type=text] {
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18pt;
+    border: none;
+    width: 85%;
+}
+
+.searchbar button {
+    float: right;
+    padding: 7px 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 18pt;
+    border: none;
+    cursor: pointer;
+}
+
+.searchbar button:hover {
+    background: #ffe66d;
+
+}
+
+/* Style for Nav */
+
+.sidebar nav {
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #1a535c;
+    text-align: left;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.sidebar nav a:hover {
+    color: #ffe66d;
+    font-weight: bold;
+
+}
+
+/* Style for Contact */
+
+#contact li {
+    list-style-type: none;
 }
