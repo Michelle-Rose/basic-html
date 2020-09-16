@@ -60,6 +60,7 @@ header {
 }
 .searchbar button:hover{
     background: #ffe66d;
+
 }
 /* Style for Nav */
 .sidebar nav{
@@ -82,4 +83,5 @@ header {
 .sidebar nav a:hover{
     color: #ffe66d;
     font-weight: bold;
+
 }
